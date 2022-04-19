@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/display_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/AdvancedPadColor"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="9dp"
+        android:textAllCaps="true"
+        android:textColor="@color/resultColor"
+        android:textSize="16sp"
+        tools:text="test" />
+
+    <com.example.calculator.utils.MeasuredScrollView
+        android:id="@+id/container_formula"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layoutDirection="rtl"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+        <com.example.calculator.utils.EquationFormulaAutoSize
+            android:id="@+id/formula"
+            style="@style/DisplayText.Formula"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:cursorVisible="false"
+            android:ellipsize="none"
+            android:enabled="true"
+            android:focusable="true"
+            android:includeFontPadding="false"
+            android:layoutDirection="ltr"
+            android:singleLine="true"
+            android:textColor="@color/darkerWhite"
+            tools:text="5ffffffddd" />
+    </com.example.calculator.utils.MeasuredScrollView>
+
+    <com.example.calculator.utils.MeasuredScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layoutDirection="rtl"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+        <com.example.calculator.utils.AlignTextView
+            android:id="@+id/result"
+            style="@style/DisplayText.Results"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:cursorVisible="false"
+            android:ellipsize="none"
+            android:enabled="true"
+            android:focusable="true"
+            android:includeFontPadding="false"
+            android:layoutDirection="ltr"
+            android:singleLine="true"
+            android:textColor="@color/resultColor"
+            tools:text="fffssfsfsf" />
+    </com.example.calculator.utils.MeasuredScrollView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

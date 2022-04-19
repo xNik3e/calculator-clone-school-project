@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/display_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/AdvancedPadColor">
+
+    <TextView
+        android:id="@+id/mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="9dp"
+        android:textAllCaps="true"
+        android:textColor="@color/resultColor"
+        android:textSize="16sp"
+        android:translationZ="4dp"
+        tools:text="test" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <com.example.calculator.utils.MeasuredScrollView
+            android:id="@+id/container_formula"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layoutDirection="rtl"
+            android:layout_marginEnd="58dp"
+            android:overScrollMode="never"
+            android:scrollbars="none">
+
+            <com.example.calculator.utils.EquationFormulaAutoSize
+                android:id="@+id/formula"
+                style="@style/DisplayText.LandscapeFormula"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:cursorVisible="false"
+                android:gravity="right|center_vertical|center_horizontal|center|end"
+                android:ellipsize="none"
+                android:enabled="true"
+                android:focusable="true"
+                android:includeFontPadding="false"
+                android:layoutDirection="ltr"
+                android:singleLine="true"
+                android:textColor="@color/darkerWhite"
+                tools:text="5ffffffdfffffffffffffdddddddddddffffffffffffdd" />
+        </com.example.calculator.utils.MeasuredScrollView>
+    nTop<com.example.calculator.utils.MeasuredScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layoutDirection="rtl"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+        <com.example.calculator.utils.AlignTextView
+            android:id="@+id/result"
+            style="@style/DisplayText.LandscapeResults"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:cursorVisible="false"
+            android:ellipsize="none"
+            android:enabled="true"
+            android:focusable="true"
+            android:includeFontPadding="false"
+            android:layoutDirection="ltr"
+            android:singleLine="true"
+            android:textColor="@color/resultColor"
+            tools:text="fffssfgggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggsfsf" />
+    </com.example.calculator.utils.MeasuredScrollView>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

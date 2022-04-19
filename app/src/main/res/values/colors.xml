@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="DarkGray">#212121</color>
+    <color name="DarkBackground">#141414</color>
+    <color name="AccentBackground">#ffbe00</color>
+    <color name="Display_style">@color/AdvancedPadColor</color>
+    <color name="startColor">@color/DarkGray</color>
+    <color name="shadowColor">#14000000</color>
+    <color name="AdvancedPadColor">@color/DarkBackground</color>
+    <color name="shadowColorLight">#32F4F4F4</color>
+    <color name="darkerWhite">#D3D3D3</color>
+    <color name="resultColor">#7affffff</color>
+    <color name="rippleButton">#1a000000</color>
+    <color name="error">#CC0000</color>
+</resources>

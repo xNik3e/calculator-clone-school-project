@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="c_radius_r12">12dp</dimen>
+    <dimen name="shadow_size">8dp</dimen>
+    <dimen name="colapsedAdvanceTab">27dp</dimen>
+    <dimen name="extendedAdvanceTab">180dp</dimen>
+    <dimen name="horizontalGDcolapsed">0.20</dimen>
+    <dimen name="horizontalGDextended">0.05</dimen>
+
+</resources>
