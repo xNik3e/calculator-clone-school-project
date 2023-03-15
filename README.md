@@ -34,6 +34,7 @@ The application was developed using the Java programming language and the <stron
 </div>
 <br>
 
+*All credits go to [OnePlus](https://www.oneplus.com/). They did a great job with their calculator app. I just wanted to replicate it for my school project.*
   
 
 
