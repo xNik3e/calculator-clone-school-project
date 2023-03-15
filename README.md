@@ -15,7 +15,7 @@ The application was developed using the Java programming language and the <stron
 
 - Android
 - Java
-- exp4j
+- [exp4j](https://github.com/fasseg/exp4j)
 
 <h2>Gallery</h2>
 <div align="center">
