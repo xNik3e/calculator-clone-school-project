@@ -5,7 +5,7 @@
   <img src="https://img.shields.io/badge/Platform-Android-green.svg" alt="Platform">
   <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License"></p>
 <br>
-<p>The objective of this project was to develop a calculator application that would allow users to perform basic mathematical operations as well as advanced functions. The presented solution was designed to accurately replicate the system application Calculator found on OnePlus devices.</p>
+<p>The objective of this project was to develop a calculator application that would allow users to perform basic mathematical operations as well as use advanced functions. The presented solution was designed to accurately replicate the system application Calculator found on OnePlus devices.</p>
 <br>
 <p>
 The application was developed using the Java programming language and the <strong>exp4j</strong> library, which is capable of evaluating complex mathematical equations and includes basic error handling functionality.
